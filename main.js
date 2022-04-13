@@ -31,7 +31,7 @@ function mousemove(e)
         ctx.beginPath();
         ctx.strokeStyle = color;
         ctx.lineWidth = width_of_line;
-        ctx.arc(current_position_of_mouse_x, current_position_of_mouse_y, raduis, 0, 2*Math.PI );
+        ctx.arc(current_position_of_mouse_x, current_position_of_mouse_y, radius, 0, 2*Math.PI );
         ctx.stroke();
     }
 }
